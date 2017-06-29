@@ -1,0 +1,20 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+__pycache__/
+*.sqlite3
+*.so
+*.egg
+*.egg-info
+dist
+build
+IC/
+OUTPUT/
+*.wpr
+*.wpu
+*.xlsx
+*.log
+
