@@ -11,12 +11,13 @@ import logging
 #...
 #...
 #
-CONFIG = [[1,'FOI',['OK_1','AV','E']],
+CONFIG = [
+    [1,'FOI',['OK_1','AV','E']],
           [2,'AMAN1',['TR','RM','R',3,1],['AV_1','AV','E']],
           [2,'AMAN2',['TR','RM','R',3,1],['AV_1','AV','E']],
           [2,'AMAN3',['TR','RM','R',3,1],['AV_1','AV','E']],
           [2,'AMAN4',['TR','RM','R',3,1],['AV_1','AV','E']],
-          [2,'PID',['UOUT[0]','AV','E'],['UOUT[1]','AV','E']]
+          [2,'PID',['Uout[1]','AV','E'],['Uout[2]','AV','E']]
           ]
 
 #IOLIST位置
@@ -37,3 +38,6 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%a, %d %b %Y %H:%M:%S',
                     filename='myapp.log',
                     filemode='w')
+
+if __name__ =='__main__':
+    print(CONFIG)
