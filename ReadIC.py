@@ -1,5 +1,4 @@
-#!/usr/bin/env python  
-#coding:utf-8  
+#-*- coding:utf-8 -*- 
 
 #读取IC，根据IOLIST的点项清单确认点项，同时根据CONFIG梳理点项清单。
 
