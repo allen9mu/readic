@@ -74,8 +74,8 @@ def get_ic_list(ic_dict, IC_key,points_iolist,SN):
         for key in IC_key.keys():
             for i in range(len(IC_key[key])):
                 if key in name:
-                    if IC_key[key][i][0] in name:
-                        n=len(name)-len(IC_key[key][i][0])
+                    if IC_key[key][i][1] in name:
+                        n=len(name)-len(IC_key[key][i][1])
                         newname = name [:n]+IC_key[key][i][0]
                         points[newname] = ic_dict[name]
         for key in SNlist.keys():
