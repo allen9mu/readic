@@ -13,6 +13,7 @@ dist
 build
 IC/
 OUTPUT/
+101/
 *.wpr
 *.wpu
 *.xlsx
