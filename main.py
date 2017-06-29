@@ -8,6 +8,8 @@ from ReadIC import get_ic_iolist,get_ic_keys,get_ic_SN,trans_ic_dict,get_ic_list
 from ReadIOList import get_shns,get_io_prs,get_io_pl,get_io_spp
 from fileop import wirte_sheet,wirte_csv
 
+logging.info('开始计算')
+
 #读取IOLIST
 iolist = openpyxl.load_workbook(IOLIST_POS)
 

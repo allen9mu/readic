@@ -81,8 +81,13 @@ def get_ic_list(ic_dict, IC_key,points_iolist,SN):
             if SNlist[key][0] == name:
                 if SNlist[key][2]=='E':
                     points[key]=ic_dict[name]                   
-                elif SNlist[key][2]=='R' and int(ic_dict[name][1])==3 :
-                    points[key] = ['BOOL',1]                
+                elif SNlist[key][2]=='R' and int(ic_dict[name][1])==3:
+                    points[key] = ['BOOL',1]
+                elif SNlist[key][2]=='F' and int(ic_dict[name][1])==4:
+                    points[key] = ['BOOL',1]
+                elif SNlist[key][2]=='G' and int(ic_dict[name][1])==1:
+                    points[key] = ['BOOL',1]
+                    
                     
     return points
 
